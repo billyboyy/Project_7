@@ -8,5 +8,6 @@ namespace Project_7
 {
     internal class Entities
     {
+
     }
 }
