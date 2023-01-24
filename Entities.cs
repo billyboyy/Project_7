@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Project_7
 {
-    internal class Entities
+    public abstract class Entities
     {
-
+        //Entities variables part
+        public float Hp { get; set; }
+        public float Armor { get; set; }
+        public bool IsAttack { get; set; }
+        public bool IsPeaceful { get; set; }
+        public char Token { get; set; }
     }
+
 }

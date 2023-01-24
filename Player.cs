@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection.Metadata.Ecma335;
 
 namespace Project_7
 {
-    internal class Player
+    internal class Player : Entities
     {
+        public Player()
+        {
+            Hp = 0.5f;
+        }
+        
+
     }
 }
