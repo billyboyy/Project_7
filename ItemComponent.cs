@@ -17,9 +17,9 @@ class Valuable : ItemComponent
 
 class PhysicalDamage : ItemComponent
 {
-    public int Slashing { get; set; } = 0;
-    public int Bashing { get; set; } = 1;
-    public int Piercing { get; set; } = 2;
+    public int Slashing { get; set; }
+    public int Bashing { get; set; }
+    public int Piercing { get; set; }
 
     public override string ToString()
     {
