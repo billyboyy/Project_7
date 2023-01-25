@@ -36,5 +36,10 @@ namespace Project_7
         }
 
 
+        private void Init()
+        {
+            Token = 'P';
+            Hp = 20;
+        }
     }
 }

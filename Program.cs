@@ -13,6 +13,10 @@
                 player.keypressed();
                 _map.show();
             }while(true);
+            Player player = new Player();
+            Quadrillator quadrillator= new Quadrillator();
+            Console.WriteLine(player.Token);
+            Console.WriteLine(quadrillator.Token);
         }
     }
 }
