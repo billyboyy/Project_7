@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_7
 {
-    class GameMap : Player
+    class GameMap
     {
         char[,] _Map;
 
