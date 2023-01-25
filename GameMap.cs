@@ -32,9 +32,9 @@ namespace Project_7
         public void show()
         {
             Console.SetCursorPosition(0, 0);
-            for (int i = 0 + _Playerpos[0] / 2; i < _Map.GetLength(0) / 2 + _Playerpos[0] / 2; i++)
+            for (int i = 0; i < _Map.GetLength(0) / 2 ; i++)
             {
-                for (int j = 0 + _Playerpos[1] / 2; j < _Map.GetLength(1) / 2 + _Playerpos[1] / 2; j++)
+                for (int j = 0 ; j < _Map.GetLength(1) / 2; j++)
                 {
                     switch (_Map[i, j])
                     {

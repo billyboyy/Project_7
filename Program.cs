@@ -6,17 +6,15 @@
         {
             GameMap _map = new GameMap();
             Player player = new Player();
+            Quadrillator quadrillator = new Quadrillator();
 
             _map.Init();
             do
-            {   
-                player.keypressed();
+            {
+                //player.keypressed();
                 _map.show();
-            }while(true);
-            Player player = new Player();
-            Quadrillator quadrillator= new Quadrillator();
-            Console.WriteLine(player.Token);
-            Console.WriteLine(quadrillator.Token);
+            } while (true);
+
         }
     }
 }
