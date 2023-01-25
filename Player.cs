@@ -1,4 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System;
 
 namespace Project_7
 {
@@ -6,9 +6,13 @@ namespace Project_7
     {
         public Player()
         {
-            Hp = 0.5f;
+            Init();
         }
-        
 
+        private void Init()
+        {
+            Token = 'P';
+            Hp = 20;
+        }
     }
 }
