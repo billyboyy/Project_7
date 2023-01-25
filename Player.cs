@@ -13,6 +13,9 @@ namespace Project_7
         {
             Token = 'P';
             Hp = 20;
+            Armor = 20;
+            PosX = 20;
+            PosY = 20;
         }
     }
 }
