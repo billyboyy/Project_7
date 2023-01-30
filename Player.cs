@@ -8,6 +8,7 @@ namespace Project_7
         public Player() {
             Init();
         }
+=======
 
         private void Init()
         {
