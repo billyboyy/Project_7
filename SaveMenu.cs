@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_7
 {
-    internal class potion
+    internal class SaveMenu
     {
     }
 }
