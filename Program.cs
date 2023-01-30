@@ -8,11 +8,12 @@
             Player player = new Player();
 
             _map.Init();
+            player.Init();
             do
             {   
+                _map.show(player._Playerpos);
                 player.keypressed();
-                _map.show();
-            }while(true);
+            } while(true);
         }
     }
 }
