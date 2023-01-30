@@ -1,24 +1,30 @@
-﻿namespace Project_7
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Project_7
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("White on blue.");
-            Console.WriteLine("Another line.");
-            Console.ResetColor();
-
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("###############################");
-            Console.ResetColor();
-
-            var sword = new Items("Sword")
-                        .AddComponent(new Valuable { Cost = 1000 })
-                        .AddComponent(new PhysicalDamage { Slashing = 10 });
-            Console.WriteLine(sword.ToString());
+            foreach (ItemBase item in Inventory.Equipements)
+            {
+                if (item != null)
+                {
+                    Console.WriteLine(item.Name);
+                    Console.WriteLine(item.PhysicalDmg);
+                }
+                else
+                {
+                    Console.WriteLine("Nothing");
+                }
+            }
+            Console.WriteLine("\nItems in backpack:");
+            foreach (ItemBase item in Inventory.Backpack)
+            {
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.Description);
+            }
         }
     }
 }
