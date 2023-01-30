@@ -7,6 +7,7 @@ namespace Project_7
 
         static void Main(string[] args)
         {
+
             foreach (ItemBase item in Inventory.Equipements)
             {
                 if (item != null)
@@ -24,6 +25,18 @@ namespace Project_7
                 Console.WriteLine(item.Name);
                 Console.WriteLine(item.Description);
             }
+=======
+            GameMap _map = new GameMap();
+            Player player = new Player();
+            Quadrillator quadrillator = new Quadrillator();
+
+            _map.Init();
+            do
+            {
+                //player.keypressed();
+                _map.show();
+            } while (true);
+
 
         }
     }

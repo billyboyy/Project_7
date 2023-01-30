@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_7
 {
-    internal class Quadrillatot :Entities
+    internal class SaveMenu
     {
-        public Quadrillatot()
-        {
-            
-        }
     }
 }
