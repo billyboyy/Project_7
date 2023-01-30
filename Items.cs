@@ -34,7 +34,7 @@ namespace Project_7
                     Name = "Long Sword",
                     PhysicalDmg = 5,
                     Crit = 5,
-                    Value= 5,
+                    Value= 100,
                     Description = "A long sword. Perfect for warriors."
                 }
             }
@@ -47,8 +47,8 @@ namespace Project_7
                 new()
                 {
                     Name = "Chestplate",
-                    PhysicalDef = 2,
-                    Value = 2,
+                    PhysicalDef = 5,
+                    Value = 200,
                     Description = "A chestplate to protect you from deadly injuries."
                 }
             }

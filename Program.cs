@@ -12,7 +12,6 @@ namespace Project_7
                 if (item != null)
                 {
                     Console.WriteLine(item.Name);
-                    Console.WriteLine(item.PhysicalDmg);
                 }
                 else
                 {
@@ -25,6 +24,7 @@ namespace Project_7
                 Console.WriteLine(item.Name);
                 Console.WriteLine(item.Description);
             }
+
         }
     }
 }

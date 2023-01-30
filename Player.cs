@@ -8,7 +8,5 @@ namespace Project_7
         {
             Hp = 0.5f;
         }
-        
-
     }
 }
