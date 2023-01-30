@@ -5,6 +5,7 @@ namespace Project_7
 {
     internal class Player : Entities
     {
+
         
         public int[] _Playerpos { get; set; }
         public void Init()
@@ -37,13 +38,20 @@ namespace Project_7
                 default:
                     break;
             }
-        }
+=======
+        public Player() {
+            Init();
 
+        }
+=======
 
         private void Init()
         {
             Token = 'P';
             Hp = 20;
+            Armor = 20;
+            PosX = 20;
+            PosY = 20;
         }
     }
 }
