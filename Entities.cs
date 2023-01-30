@@ -14,6 +14,8 @@ namespace Project_7
         public bool IsAttack { get; set; }
         public bool IsPeaceful { get; set; }
         public char Token { get; set; }
+        public int PosX { get; set; }
+        public int PosY { get; set; }
     }
 
 }
